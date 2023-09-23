@@ -1,3 +1,2 @@
-p,r,t=map(int,input().split())
-chhichhore=(p*r*t)/100
-print(int(chhichhore))
+p,t,r=map(int,input().split())
+print(int((p*t*r)/100))
